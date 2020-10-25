@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>NFL Quiz</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body onload="BeginPlay()">
+      <div align="right">
+          <h1>time
+              <textarea readonly id="minutes" cols="1" >2</textarea>&nbsp;:&nbsp;
+              <textarea readonly id="seconds" cols="1" >2</textarea>&nbsp;&nbsp;Counter&nbsp;&nbsp;
+              <textarea readonly id="counter" cols="10">0</textarea>
+          </h1>
+      </div>
+      <p id="n_quest">0</p>
+      <center>
+          <div>
+              <h1><p readonly id="quest_text" ></p><br></h1>
+              <button type="submit" id="op1" class="opc" style='width:400px; height:50px'></button><br>
+              <button type="submit" id="op2" class="opc" style='width:400px; height:50px'></button><br>
+              <button type="submit" id="op3" class="opc" style='width:400px; height:50px'></button><br>
+              <button type="submit" id="op4" class="opc" style='width:400px; height:50px'></button><br>
+          </div>
+          
+      </center>
+
+    <script src="script.js"></script>
+  </body>
+</html>
