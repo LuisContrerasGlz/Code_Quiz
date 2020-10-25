@@ -124,7 +124,7 @@ function BeginPlay() {
 
 function check(){
     var run_game = true;
-    if (count>3){
+    if (count>9){
         op1Btn.disabled=true;
         op2Btn.disabled=true;
         op3Btn.disabled=true;
@@ -142,7 +142,7 @@ function wrong(){
     var snd = new Audio("beep_beep.mp3");
     snd.play();
   }
-  
+
 function op1Play(){
     if (check()==true){
         nquest= n_questText.innerText;
