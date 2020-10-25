@@ -137,10 +137,7 @@ function check(){
     return run_game;
 }
 
-function wrong(){
-  var snd = new Audio("beep_beep.mp3");
-  snd.play();
-}
+
 function op1Play(){
     if (check()==true){
         nquest= n_questText.innerText;
