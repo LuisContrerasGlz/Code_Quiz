@@ -16,7 +16,7 @@ function reg_usr(){
     localStorage.setItem("users", JSON.stringify(v_usrs));
     localStorage.setItem("times", JSON.stringify(v_time));
     document.location.target = "_blank";
-    document.location.href="file:///C:/luis/bootcamp/quiz/03-Homework/Develop/index.html";
+    document.location.href="./index.html";
 }
 
 

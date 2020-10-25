@@ -15,7 +15,7 @@ function pr_array(){
         
     }
     document.write("<center><h1>")
-    document.write("<a href='file:///C:/luis/bootcamp/quiz/03-Homework/Develop/index.html'>Home</a>");
+    document.write("<a href='./index.html'>Home</a>");
 }
 
 staBtn.EventListener("click", pr_array);
