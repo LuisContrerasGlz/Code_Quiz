@@ -132,7 +132,7 @@ function check(){
         run_game= false;
         localStorage.setItem("time", time);
         document.location.target = "_blank";
-        document.location.href="file:///C:/luis/bootcamp/quiz/03-Homework/Develop/reg.html";
+        document.location.href="./reg.html";
     }
     return run_game;
 }
