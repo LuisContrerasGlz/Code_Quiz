@@ -4,7 +4,6 @@ function pr_array(){
     let arr_users = JSON.parse(localStorage.getItem("users"));
     let arr_times = JSON.parse(localStorage.getItem("times"));
     long = arr_users.length;
-    alert(long);
     document.write("<center><h1>")
     for (i=0; i<long; i++){
        

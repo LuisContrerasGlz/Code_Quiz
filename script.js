@@ -42,7 +42,7 @@ const      questions = [
         },
         {
             id:3,
-            question:'Only unitented team in an NFK season',
+            question:'Only unitented team in an NFL season',
             op1: 'Steelers',
             op2: 'Patriots',
             op3: 'Green Bay',

@@ -11,7 +11,6 @@ function rec_array(){
     let arr_users = JSON.parse(localStorage.getItem("users"));
     let arr_times = JSON.parse(localStorage.getItem("times"));
     long = arr_users.length;
-    alert(long);
     for (i=0; i<long; i++){
          v_usrs.push(arr_users[i]);
          v_time.push(arr_times[i]);   
