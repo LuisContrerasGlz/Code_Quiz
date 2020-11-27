@@ -19,3 +19,5 @@ THEN I can save my initials and score
 
 Link to GitHub Pages: https://luiscontrerasglz.github.io/Code_Quiz/
 
+![Screenshot Index](./img.png)
+
